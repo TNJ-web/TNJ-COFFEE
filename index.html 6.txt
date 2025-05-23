@@ -145,7 +145,7 @@
           <strong>T&J Medium Roast – 1 кг</strong><br>
           <span>Цена: 28 лв</span>
         </div>
-        <img src="/mnt/data/b26c8167-87c1-4eb8-b0bb-fde3d924c120.png" alt="T&J Medium Roast">
+        <img src="https://sdmntprsouthcentralus.oaiusercontent.com/files/00000000-5ef0-61f7-8bcd-26aa6984f313/raw?se=2025-05-23T07%3A12%3A09Z&sp=r&sv=2024-08-04&sr=b&scid=fc19a8c7-55e6-5f89-8118-0c1fcfe0de50&skoid=0a4a0f0c-99ac-4752-9d87-cfac036fa93f&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-05-23T06%3A02%3A34Z&ske=2025-05-24T06%3A02%3A34Z&sks=b&skv=2024-08-04&sig=yXkoomn3WAC4kr%2BVd8KYJXzQ/DoN8alAqCSySlgRq%2Bo%3D" alt="T&J Medium Roast">
         <button onclick="addToCart('T&J Medium Roast – 1 кг', 28)">Добави</button>
       </div>
 
