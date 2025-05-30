@@ -1,0 +1,109 @@
+
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>T&J Кафе</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #ffffff;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: linear-gradient(90deg, #004080, #ffcc00);
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1511920170033-f8396924c348?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80') no-repeat center center;
+      background-size: cover;
+      height: 60vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+    .content {
+      padding: 2rem 1rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .product, .offer, .contact-form {
+      background: #f9f9f9;
+      border-radius: 1rem;
+      padding: 2rem;
+      margin-bottom: 2rem;
+      box-shadow: 0 0 15px rgba(0,0,0,0.05);
+    }
+    .offer {
+      border: 2px dashed #ffcc00;
+      background: #fffbe6;
+    }
+    .offer h3 {
+      color: #cc6600;
+      margin-top: 0;
+    }
+    .contact-form {
+      background: #004080;
+      color: white;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 0.75rem;
+      margin: 0.5rem 0;
+      border: none;
+      border-radius: 0.5rem;
+      font-size: 1rem;
+    }
+    button {
+      background: #ffcc00;
+      border: none;
+      padding: 0.75rem 1.5rem;
+      font-weight: bold;
+      border-radius: 0.5rem;
+      cursor: pointer;
+      font-size: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>T&J Кафе</h1>
+    <p>60% арабика, 40% робуста – нотки на шоколад, череша и печени бадеми</p>
+  </header>
+
+  <section class="hero">
+    <h2>Наслади се на изискано кафе с характер</h2>
+  </section>
+
+  <section class="content">
+    <div class="product">
+      <h3>За продукта</h3>
+      <p>T&J е изискана селекция от 60% арабика и 40% робуста – перфектно балансиран вкус със средно изпечени зърна и ароматни нотки на шоколад, череша и печени бадеми. Идеално за всяка част от деня.</p>
+    </div>
+
+    <div class="offer">
+      <h3>🎁 Специална оферта</h3>
+      <p><strong>Купи 5 кг кафе всяка седмица и получи безплатна кафемашина!</strong></p>
+    </div>
+
+    <div class="contact-form">
+      <h3>Свържи се с нас</h3>
+      <form action="https://formspree.io/f/mrbqvzzg" method="POST">
+        <input type="text" name="name" placeholder="Име" required>
+        <input type="email" name="email" placeholder="Имейл" required>
+        <textarea name="message" rows="4" placeholder="Съобщение"></textarea>
+        <button type="submit">Изпрати</button>
+      </form>
+    </div>
+  </section>
+</body>
+</html>
